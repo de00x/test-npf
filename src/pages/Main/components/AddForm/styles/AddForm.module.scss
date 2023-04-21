@@ -1,7 +1,6 @@
 .addForm {
-  display: flex;
-  justify-content: space-between;
   margin: 30px 0;
+  margin-bottom: 0;
   padding: 0 10px;
   & input {
     width: 170px;
@@ -9,12 +8,52 @@
     border: none;
     padding: 0 10px;
     border-radius: 5px;
-    transition: 0.3s background-color ease-in-out;
+    transition: 0.3s background-color ease-in-out, 0.3s color ease-in-out;
+    color: #ffffff70;
+    background-color: #cccccc2d;
     &:focus {
-      background-color: #e0e0e0;
+      background-color: #cccccc59;
+      &::placeholder {
+        color: #ffffff70;
+      }
+    }
+    &::placeholder {
+      color: #cccccc26;
     }
   }
+}
+.inputContainer {
+  display: flex;
+  justify-content: space-evenly;
+}
+.btnAddFromFormContainer,
+.btnAddFromApiContainer {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
   & button {
-    display: none;
+    width: 130px;
+    height: 35px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    color: #ffffffab;
+    background-color: #cccccc2d;
+    transition: 0.2s background-color ease-in-out;
+    &:hover {
+      background-color: #cccccc63;
+    }
+  }
+}
+.btnAddFromApiContainer {
+  margin-bottom: 30px;
+  margin-top: 20px;
+}
+.btnDisabled {
+  background-color: #cccccc2d !important;
+  cursor: default !important;
+  &:hover {
+    background-color: #cccccc2d !important;
+    cursor: default !important;
   }
 }

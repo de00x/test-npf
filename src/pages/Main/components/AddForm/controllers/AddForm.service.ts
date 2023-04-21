@@ -1,7 +1,8 @@
 import { useEffect } from 'react'
+
 import { IUserApiData } from '../../../../../types/userApiData.types'
 
-const AddUsersBtnService = {
+const AddFormService = {
   GetCurrentUsersLength(
     users: IUserApiData[],
     setIsDownloadUsers: React.Dispatch<React.SetStateAction<boolean>>
@@ -15,4 +16,4 @@ const AddUsersBtnService = {
   },
 }
 
-export default AddUsersBtnService
+export default AddFormService

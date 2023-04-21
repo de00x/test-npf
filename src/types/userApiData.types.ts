@@ -1,6 +1,6 @@
 export interface IUserApiData {
   id: number
-  user: string
+  name: string
   username: string
   email: string
 }

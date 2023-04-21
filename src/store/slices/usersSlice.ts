@@ -1,5 +1,6 @@
-import { createSlice } from '@reduxjs/toolkit'
 import type { PayloadAction } from '@reduxjs/toolkit'
+import { createSlice } from '@reduxjs/toolkit'
+
 import { IUserApiData } from '../../types/userApiData.types'
 
 const initialState: IUserApiData[] = []

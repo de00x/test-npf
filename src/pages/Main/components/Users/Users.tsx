@@ -1,8 +1,9 @@
 import { FC } from 'react'
-import styles from './styles/Users.module.scss'
-import { RootState } from '../../../../store/store'
 import { useDispatch, useSelector } from 'react-redux'
+
 import { deleteUser } from '../../../../store/slices/usersSlice'
+import { RootState } from '../../../../store/store'
+import styles from './styles/Users.module.scss'
 
 export const Users: FC = (): JSX.Element => {
   const users = useSelector((state: RootState) => state.users)
@@ -17,7 +18,7 @@ export const Users: FC = (): JSX.Element => {
           key={user.id}
         >
           <div>
-            user: <span>{user.user}</span>
+            name: <span>{user.name}</span>
           </div>
           <div>
             username: <span>{user.username}</span>

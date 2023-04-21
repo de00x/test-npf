@@ -1,5 +1,6 @@
-import { Main } from './pages'
 import { FC } from 'react'
+
+import { Main } from './pages'
 
 const App: FC = (): JSX.Element => {
   return <Main />

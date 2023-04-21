@@ -13,5 +13,6 @@ a {
   text-decoration: none;
 }
 body {
-  background-color: #444;
+  background: rgb(20, 13, 145);
+  background: linear-gradient(90deg, rgba(20, 13, 145, 1) 15%, rgba(0, 174, 209, 1) 100%);
 }

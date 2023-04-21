@@ -5,10 +5,11 @@
   margin: 15px 0;
   padding: 10px 15px;
   border-radius: 5px;
-  box-shadow: 0 0 10px 10px #9393931a;
-  transition: 0.2s background-color ease-in-out;
+  box-shadow: 0 0 15px 5px #32ffad65;
+  transition: 0.2s box-shadow ease-in-out, 0.3s transform ease-in-out;
   &:hover {
     cursor: pointer;
-    background-color: #4e4e4e91;
+    transform: scale(1.02);
+    box-shadow: 0 0 20px 10px #32ffad65;
   }
 }

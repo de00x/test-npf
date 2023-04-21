@@ -1,9 +1,11 @@
 import { configureStore } from '@reduxjs/toolkit'
-import usersSlice from './slices/usersSlice'
+
+// eslint-disable-next-line import/no-named-as-default
+import usersReducer from './slices/usersSlice'
 
 export const store = configureStore({
   reducer: {
-    users: usersSlice,
+    users: usersReducer,
   },
 })
 
