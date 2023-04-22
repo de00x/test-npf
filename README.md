@@ -4,7 +4,7 @@ SPA для добавления и удаления юзеров в список
 Список юзеров отображается на странице.
 При клике на конкретного юзера - он удаляется.
 Небольшой адаптив.
-Тесты на Redux, <Users />.
+Тесты на Redux, Component"Users".
 Input email с валидацией.
 /// React, Typescript, Redux-toolkit, sass, classnames ///
 /// npm run, npm test, npm format. ///
