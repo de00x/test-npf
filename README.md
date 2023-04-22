@@ -7,4 +7,4 @@ SPA для добавления и удаления юзеров в список
 Тесты на Redux, Component"Users".
 Input email с валидацией.
 /// React, Typescript, Redux-toolkit, sass, classnames ///
-/// npm run, npm test, npm format. ///
+/// npm run, npm test,npm test -- --coverage , npm format. ///
